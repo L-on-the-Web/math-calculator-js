@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content"width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="assets/css/styles.css">
+      <link rel "apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+      <link rel="icon" type="images/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+      <link rel="icon" type="images/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+
+      <title>Basic Mathmatic Calculator</title>
+   </head>
+   <body>
+      <section class="calculator">
+         <form>
+            <input id="display" type="text" readonly>
+         </form>
+         <div class="button">
+            <div class="first-row">
+               <button type="button" class="clear">C</button>
+               <button type="button" class="equal">=</button>
+            </div>
+            <div class="op-buttons">
+               <button type="button" class="operator" data-op="+">&plus;</button>
+               <button type="button" class="operator" data-op="-">&minus;</button>
+               <button type="button" class="operator" data-op="*">&times;</button>
+               <button type="button" class="operator" data-op="/">&divide;</button>
+            </div>
+            <div class="num-buttons">
+               <button type="button" class="number" data-num="1">1</button>
+               <button type="button" class="number" data-num="2">2</button>
+               <button type="button" class="number" data-num="3">3</button>
+               <button type="button" class="number" data-num="4">4</button>
+               <button type="button" class="number" data-num="5">5</button>
+               <button type="button" class="number" data-num="6">6</button>
+               <button type="button" class="number" data-num="7">7</button>
+               <button type="button" class="number" data-num="8">8</button>
+               <button type="button" class="number" data-num="9">9</button>
+               <button type="button" class="percent" data-fractoral="%">%</button>
+               <button type="button" class="number" data-num="0">0</button>
+               <button type="button" class="decimal-point" data-fractoral=".">.</button>
+            </div>
+         </div>
+      </section>
+      <script src="assets/js/script.js"></script>
+   </body>
+</html>
